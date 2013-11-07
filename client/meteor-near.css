@@ -4,3 +4,13 @@ html,body,#leaflet{
   padding: 0;
   margin: 0;
 }
+
+.cityList{
+  font-family:Futura;
+  position: absolute;
+  top:50px;
+  left:10px;
+  z-index: 1000;
+  width: 100%;
+  opacity: 0.8;
+}

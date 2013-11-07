@@ -14,6 +14,12 @@ Template.map.rendered = function () {
     ).fetch()
 
     console.log('Cities nearby:',cities.map(function(c){return c.name}))
+
+    Session.set('cities', cities)
   })
 
 };
+
+Template.cityList.near = function () {
+  return Session.get('cities');
+}

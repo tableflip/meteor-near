@@ -4,8 +4,17 @@
 
 <body>
   {{> map}}
+  <div class="cityList">
+    {{> cityList}}
+  </div>
 </body>
 
 <template name="map">
   {{#constant}}<div id="leaflet"></div>{{/constant}}
+</template>
+
+<template name="cityList">
+  {{#each near}}
+  <h1>{{name}}</h1>
+  {{/each}}
 </template>
