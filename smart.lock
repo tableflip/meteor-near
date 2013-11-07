@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "leaflet-0.6.4": {}
+    },
+    "packages": {
+      "leaflet-0.6.4": {
+        "git": "https://github.com/Ore4444/meteor-leaflet.git",
+        "tag": "v0.0.1",
+        "commit": "987091b1bb3cc27adb76193e9791b6e62eaeaa3b"
+      }
+    }
+  }
+}

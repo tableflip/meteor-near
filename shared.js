@@ -1,0 +1,1 @@
+CityLocations = new Meteor.Collection('CityLocations');
